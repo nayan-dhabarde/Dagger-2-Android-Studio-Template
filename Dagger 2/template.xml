@@ -1,0 +1,25 @@
+<template format="5"
+          revision="1"
+          name="Dagger 2"
+          description="Generates Dagger 2 skeleton">
+
+    <category value="Other"/>
+
+    <parameter
+            id="applicationClass"
+            name="Application Class"
+            type="string"
+            constraints="class|unique|nonempty"
+            default="MyApplication"
+            help="The name of the application class to create. Dagger  uses this to inject all dependencies" />
+
+    <parameter
+            id="packageName"
+            name="Package name"
+            type="string"
+            constraints="package"
+            default="com.mycompany.myapp" />
+
+    <execute file="recipe.xml.ftl" />
+
+</template>
