@@ -12,3 +12,4 @@ Android studio template to add Dagger 2 to your new project with just one click!
 Few of the things to be changed after adding Dagger,
 1. Replace dependencies with Dagger dependency in app level build.gradle file
 2. Remove sample files 
+![alt text](https://github.com/ndhabrde11/Dagger-2-Android-Studio-Template/blob/master/dagger.JPG?raw=true)
